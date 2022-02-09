@@ -26,7 +26,7 @@ pipeline
       stage('DEPLOYMENT')
       {
         steps{
-          sh 'docker run -d -p 578578:80 --name firstdocr rajeshktm007/sua'
+          sh 'docker run -d -p 5788:80 --name firstdocr rajeshktm007/sua'
         }
         
     }
