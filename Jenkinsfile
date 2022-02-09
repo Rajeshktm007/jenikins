@@ -26,7 +26,7 @@ pipeline
       stage('DEPLOYMENT')
       {
         steps{
-          sh 'docker run -d -p 569:80 --name firstdel rajeshktm007/summa'
+          sh 'docker run -d -p 569:80 --name firstd rajeshktm007/summa'
         }
         
     }
